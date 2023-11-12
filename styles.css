@@ -16,14 +16,14 @@ body {
 
 #navbar-info {
   display:flex;
-  width:100%;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  
-  & p {
-    margin: 5px;
-    text-align: center;
-  }
+}
+
+#navbar-info p {
+  margin: 5px;
+  text-align: center;
 }
 
 #information {
