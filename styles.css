@@ -1,0 +1,53 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+}
+
+#navbar-info {
+  display:flex;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  & p {
+    margin: 5px;
+    text-align: center;
+  }
+}
+
+#information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#information-right-div {
+  text-align: center;
+}
+
+#estimate {
+  background-color: #ce4949;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}

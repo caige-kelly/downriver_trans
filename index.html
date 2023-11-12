@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Downriver Transmission | Remanufactured Transmissions </title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <h1>Downriver Transmission</h1>
+      <div id="navbar-info">
+        <p>Monday-Friday 8AM-5PM</p>
+        <p>Contact Us: <a href="tel:7342830123">(734) 283-0123</a></p>
+        <p>4314 Biddle Ave, Wyandotte, MI 48192, United States</p>
+      </div>
+    </header>
+    <section id="information">
+      <div id="information-left-div">
+        <h1>100% <br>Remanufactured<br>Transmissions</h1>
+      </div>
+      <div id="information-right-div">
+        <p>Buy direct and save 5% off of purchase!</p>
+        <p>Every transmission comes with warranty, installation instructions and candy!</p>
+    </div>
+    </section>
+    <section id="estimate">
+      <div>
+        <h1 id="estimate-header">Create a Free Estimate</h1>
+        <form id="vin-form">
+          Look for transmission by V.I.N<br>
+          <input 
+          type="text" id="vin" name="vin" 
+          required minlength="17" maxlength="17" size="37" 
+          placeholder=" Enter Vehicle Identification Number (VIN) "
+          />
+        </form>
+        <h2>- OR -</h2>
+      </div>
+    </section>
+  </body>
